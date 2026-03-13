@@ -26,10 +26,12 @@ This commands includes
 • Other IP Commands e.g. show ip route etc.
 <BR>
 ##PROGRAM:
+
 server.py
 ```
 import socket
 from pythonping import ping
+
 
 s = socket.socket()
 s.bind(('localhost', 8000))
