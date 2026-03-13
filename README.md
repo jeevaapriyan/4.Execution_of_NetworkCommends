@@ -67,6 +67,7 @@ while True:
     print(s.recv(4096).decode('utf-8'))
 
 s.close()
+```
 
 
 ## Output:
